@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: #fbfcf3;
+}
+
+.header {
+	box-shadow: 0 0 15px 0 rgb(0 0 0 / 5%);
+
+	.header-container {
+		@apply mx-auto flex items-center justify-between h-16 p-5;
+	}
+
+	.header-menu {
+		a {
+			@apply px-2 py-1;
+		}
+		.active {
+			@apply border-b-2 border-yellow-400;
+		}
+	}
+}
+
+.basketBtn {
+	background-color: #3b3938;
+	@apply px-4 py-2 text-gray-50 rounded-md;
+}
