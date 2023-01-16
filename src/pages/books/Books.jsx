@@ -1,6 +1,7 @@
 import React from "react";
 import { TitleDownLineIcon } from "@/icon";
 import categories from "@/list/categoriesdb";
+import booksList from "@/list/booksdb";
 import Categori from "@/components/books/Categori";
 import BookCard from "@/components/books/BookCard";
 
@@ -21,7 +22,9 @@ export default function Books() {
 					</div>
 				</div>
 				<div className="grid grid-cols-3 py-8 gap-8">
-					<BookCard />
+					{booksList.map((book) => (
+						<BookCard key={book.id} book={book} />
+					))}
 				</div>
 			</div>
 		</section>
