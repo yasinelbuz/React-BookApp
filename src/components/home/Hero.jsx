@@ -25,10 +25,12 @@ export default function Hero() {
 			<div className="flex justify-center">
 				<Link to="/books">
 					<Button>
-						Go to{" "}
-						<b className="flex items-center gap-1">
-							Books <ArrowRightIcon />
-						</b>
+						<span className="flex gap-2">
+							Go to{" "}
+							<b className="flex items-center gap-1">
+								Books <ArrowRightIcon />
+							</b>
+						</span>
 					</Button>
 				</Link>
 			</div>

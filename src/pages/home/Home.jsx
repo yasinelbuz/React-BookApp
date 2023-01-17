@@ -1,8 +1,7 @@
 import React from "react";
-import Button from "@/components/ui/Button";
-import { Link } from "react-router-dom";
-import { ArrowRightIcon, Quotation } from "@/icon";
+import { Quotation } from "@/icon";
 import Hero from "@/components/home/Hero";
+import Modal from "@/components/modal/Modal";
 
 export default function Home() {
 	return (

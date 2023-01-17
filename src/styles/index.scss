@@ -26,5 +26,21 @@ body {
 
 .basketBtn {
 	background-color: #3b3938;
-	@apply px-4 py-2 text-gray-50 rounded-md;
+	@apply px-4 py-2 text-gray-50 rounded-md transition-all;
+
+	span {
+		position: relative;
+		left: 0;
+		transition: all 0.3s;
+	}
+
+	&:hover span {
+		position: relative;
+		left: 3px;
+	}
+
+	&:focus {
+		outline: 2px solid blue;
+		outline-offset: 2px;
+	}
 }

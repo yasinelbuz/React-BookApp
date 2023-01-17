@@ -1,31 +1,35 @@
 const categories = [
    {
       id: 1,
-      title: "Hepsi",
+      title: "All Books",
    },
    {
       id: 2,
-      title: "100 Temel Eser",
+      title: "Arts & Photography",
    },
    {
       id: 3,
-      title: "Anı Hatırat",
+      title: "Biographies & Memoirs",
    },
    {
       id: 4,
-      title: "Biyografi-Otobiyografi",
+      title: "Children's Books",
    },
    {
       id: 5,
-      title: "Çocuk Kitaplar",
+      title: "Computers & Technology",
    },
    {
       id: 6,
-      title: "Eğitim",
+      title: "Education & Teaching",
    },
    {
       id: 7,
-      title: "Hobi",
+      title: "History",
+   },
+   {
+      id: 8,
+      title: "Romance",
    },
 ];
 

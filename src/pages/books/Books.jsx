@@ -2,7 +2,7 @@ import React from "react";
 import { TitleDownLineIcon } from "@/icon";
 import categories from "@/list/categoriesdb";
 import booksList from "@/list/booksdb";
-import Categori from "@/components/books/Categori";
+import Categori from "@/components/books/Categories";
 import BookCard from "@/components/books/BookCard";
 
 export default function Books() {
@@ -14,14 +14,14 @@ export default function Books() {
 					<TitleDownLineIcon />
 				</h1>
 				<div className="mt-10">
-					<h2 className="font-bold">Kategoriler</h2>
+					<h2 className="font-bold text-black/20">Categories</h2>
 					<div className="flex items-start mt-2 overflow-auto">
 						{categories.map((item, index) => (
-							<Categori key={index} item={item} />
+							<Categori key={item.id} item={item} />
 						))}
 					</div>
 				</div>
-				<div className="grid grid-cols-3 py-8 gap-8">
+				<div className="grid grid-cols-1 lg:grid-cols-3 py-8 gap-8">
 					{booksList.map((book) => (
 						<BookCard key={book.id} book={book} />
 					))}
