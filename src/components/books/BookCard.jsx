@@ -1,13 +1,20 @@
 import React from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { setBookId, setModalToggle } from "@/stores/bookShopSlice";
 
 export default function BookCard({ book }) {
+	const dispatch = useDispatch();
 	const categoryId = useSelector((state) => state.filter.categoryId);
+	const modalOpen = useSelector(state => state.bookShop.modalOpen);
+	//
 	const checkCategory = book.categories.includes(categoryId);
 
 	return (
 		checkCategory && (
-			<div className="relative bg-white h-36 shadow-gray-200 shadow rounded-md flex items-start hover:shadow-md hover:border-2 hover:border-yellow-500 transition-all cursor-pointer">
+			<div
+				className="relative bg-white h-36 shadow-gray-200 shadow rounded-md flex items-start hover:shadow-md hover:border-2 hover:border-yellow-500 transition-all cursor-pointer"
+				onClick={() => deneme()}
+			>
 				<img
 					src={`images/${book.img}`}
 					className="object-cover h-full w-[440px] rounded-tl-md rounded-bl-md"
