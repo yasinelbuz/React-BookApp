@@ -4,21 +4,24 @@ _"Application where you can browse and buy books”_
 
 A simple book shopping site coded with React
 
-# What Can You Do?
-- Can you view the books?
-- You can choose by categories.
-- You can view the book details.
-- You can add it as an order.
-- You can view the order page.
-
 - [Demo](#demo)
+- [What Can You Do?](#what-can-you-do)
 - [Installation](#installation)
 - [Starting project](#starting-project)
 - [Links](#links)
 - [Contact](#contact)
 
+
 ## Demo
-![alt text](https://raw.githubusercontent.com/yasinelbuz/react-choose-the-right-game/master/bookshop.png)
+![alt text](https://raw.githubusercontent.com/yasinelbuz/React-BookApp/master/bookshop.png)
+
+
+## What Can You Do?
+- Can you view the books?
+- You can choose by categories.
+- You can view the book details.
+- You can add it as an order.
+- You can view the order page.
 
 
 ## Installation
