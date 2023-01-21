@@ -18,7 +18,7 @@ A simple book shopping site coded with React
 - [Contact](#contact)
 
 ## Demo
-![alt text](https://raw.githubusercontent.com/yasinelbuz/react-choose-the-right-game/master/game.png)
+![alt text](https://raw.githubusercontent.com/yasinelbuz/react-choose-the-right-game/master/Screen Shot 2023-01-21 at 20.02.31.png)
 
 
 ## Installation
