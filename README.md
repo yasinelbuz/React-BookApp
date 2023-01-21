@@ -39,7 +39,7 @@ npm start
 ## Links
 
 - [Github](https://github.com/yasinelbuz/React-BookApp)
-- [Deployment](coming soon)
+- [Deployment](https://book-app-orcin.vercel.app)
 
 ## Contact
 You can contact me at yasinelbuz@gmail.com
