@@ -1,6 +1,6 @@
 # React-BookApp
 
-_"Application where you can browse and buy books”_
+_"This project is shopping page. You can see products and categories and add them to your basket and after that you can buy these products.”_
 
 A simple book shopping site coded with React
 
